@@ -14,7 +14,7 @@ p = inputParser;
 addRequired(p, 'a', valid_scalar);
 addRequired(p, 'b', valid_scalar_b);
 addRequired(p, 'm', valid_scalar);
-addOptional(p, 'x', xn, valid_scalar)
+addOptional(p, 'x', xn)
 parse(p, a, b, m, varargin{:});
 
 a = p.Results.a;
