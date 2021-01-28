@@ -1,1 +1,1 @@
-# actividad_modela
+# Actividad Grupal -  Modelado y Simulación Numérica
