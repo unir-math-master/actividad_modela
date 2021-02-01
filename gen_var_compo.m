@@ -2,10 +2,10 @@ function [u] = gen_var_compo()
 global xn;
 global xn2;
 
-%[R1,xn] = gen(3,1,1048576, xn);
-%[R2, xn2] = gen(3,1,1048576,xn2);
-R1 = rand();
-R2 = rand();
+[R1,xn] = gen(3,1,1048576, xn);
+[R2, xn2] = gen(3,1,1048576,xn2);
+%R1 = rand();
+%R2 = rand();
 
 if R1 <= 1/4
     fx=pi*R2;
