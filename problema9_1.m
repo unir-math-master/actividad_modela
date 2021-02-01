@@ -1,5 +1,5 @@
 for j=1:100000
-    u1 = gen_var_acerec();
+    u1 = gen_var_acerec1();
     paquete(j) = u1;
 end
     
